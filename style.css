@@ -29,6 +29,8 @@ body {
 
 section {
     padding: 3rem 0;
+
+    outline: 2px solid blue;
 }
 
 .container {
@@ -47,6 +49,7 @@ section {
     -o-background-size: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-top: 1.5rem;
 }
 
 .header-top {
@@ -63,6 +66,7 @@ section {
 
 .header-left {
     padding-top: 6rem;
+    padding-bottom: 11rem;
     flex-flow: column nowrap;
 
     color: #ffffff;
@@ -93,14 +97,14 @@ section {
     }
 
 .header-photo {
-    width: 50%;
+    width: 48%;
     position: absolute;
-    top: -1rem;
-    left: 47%;
+    top: 0rem;
+    left: 48%;
 }
 
 .nav-right {
     position: absolute;
-    top: 34%;
+    top: 35%;
     left: 98%;
 }
