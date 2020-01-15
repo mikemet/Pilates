@@ -34,28 +34,30 @@ section {
 .container {
     padding-left: 4rem;
     padding-right: 4rem;
-
     outline: 2px solid red;
 }
 
 /*===================================  header  ==================================*/
 .header {
-
+    background-image: url('images/header-bg.png');
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .header-top {
-
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .header-content {
-
 }
 
 .header-left {
-
 }
 
-.header-photo {
-
-}
 
