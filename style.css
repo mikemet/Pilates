@@ -29,7 +29,6 @@ body {
 
 section {
     padding: 3rem 0;
-
     outline: 2px solid blue;
 }
 
@@ -37,7 +36,6 @@ section {
     padding-left: 4rem;
     padding-right: 4rem;
     position: relative;
-
     outline: 2px solid red;
 }
 
@@ -68,7 +66,6 @@ section {
     padding-top: 6rem;
     padding-bottom: 11rem;
     flex-flow: column nowrap;
-
     color: #ffffff;
 }
 
@@ -92,7 +89,6 @@ section {
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
         margin-top: 2.4rem;
-
         color: #ffffff;
     }
 
@@ -110,3 +106,67 @@ section {
 }
 
 /*======================================  about  =========================================*/
+.about {
+    margin-top: 2rem;
+}
+
+.about-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+}
+
+.section-title {
+    display: inline-flex;
+    align-items: center;
+}
+
+    .section-title hr {
+        width: 2rem;
+        margin-right: 1rem;
+        border: 1px solid gray;
+        background-color: gray;
+    }
+
+    .section-title span {
+        font-family: Roboto-Light;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+.about-content a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2a4f37;
+}
+
+.about-photo {
+    display: flex;
+    /*background-image: url('images/about-circles.png');
+    background-repeat: no-repeat;*/
+    justify-content: end;
+
+    /*outline: 2px solid;*/
+}
+
+    .about-photo img:first-child {
+        position: absolute;
+        width: 22%;
+        z-index: 100;
+        top: 51%;
+        right: 48%;
+    }
+
+    .about-photo img:last-child {
+        width: 80%;
+        margin-top: 1rem;
+        z-index: 0;
+    }
+
+    .about-photo img:nth-child(2) {
+        position: absolute;
+        z-index: -100;
+        top: 30%;
+        right: 51%;
+    }
