@@ -22,3 +22,40 @@ html {
     font-size: 16px;
     line-height: 1rem;
 }
+
+body {
+    font-family: Roboto-Light;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    outline: 2px solid red;
+}
+
+/*===================================  header  ==================================*/
+.header {
+
+}
+
+.header-top {
+
+}
+
+.header-content {
+
+}
+
+.header-left {
+
+}
+
+.header-photo {
+
+}
+
