@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 html {
     font-size: 16px;
     line-height: 1rem;
