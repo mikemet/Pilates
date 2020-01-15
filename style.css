@@ -34,6 +34,8 @@ section {
 .container {
     padding-left: 4rem;
     padding-right: 4rem;
+    position: relative;
+
     outline: 2px solid red;
 }
 
@@ -54,10 +56,51 @@ section {
     width: 100%;
 }
 
-.header-content {
-}
+    .header-top p {
+        font-family: Roboto-Regular;
+        font-weight: bold;
+    }
 
 .header-left {
+    padding-top: 6rem;
+    flex-flow: column nowrap;
+
+    color: #ffffff;
 }
 
+    .header-left span {
+        font-size: 3rem;
+        line-height: 1.2em;
+        text-transform: uppercase;
+    }
 
+    .header-left p {
+        font-size: 1.125rem;
+        margin-top: 1rem;
+    }
+
+    .header-left button {
+        background: transparent;
+        padding: 1rem 2rem;
+        border: 2px solid #ffffff;
+        border-top-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        margin-top: 2.4rem;
+
+        color: #ffffff;
+    }
+
+.header-photo {
+    width: 50%;
+    position: absolute;
+    top: -1rem;
+    left: 47%;
+}
+
+.nav-right {
+    position: absolute;
+    top: 34%;
+    left: 98%;
+}
