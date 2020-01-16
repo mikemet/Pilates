@@ -253,7 +253,7 @@ section {
     border-top-right-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
     border-bottom-right-radius: 1.2rem;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2.5rem;
     margin-top: 2rem;
 
     font-weight: bold;
@@ -263,4 +263,17 @@ section {
     .level-item a::first-letter {
         text-transform: capitalize;
     }
+
+/* =================================  lessons  ====================================     */
+.lessons {
+
+}
+
+.lessons-item {
+
+}
+
+.lessons-photo {
+    
+}
 
