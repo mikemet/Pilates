@@ -1,22 +1,27 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head lang="ru">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b26721f731.js" crossorigin="anonymous"></script>
 
     <title>Пилатес</title>
 </head>
+
 <body>
     <section class="header">
         <div class="container">
             <div class="header-top">
                 <img src="images/logo.png" class="img-fluid" alt="" />
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -54,7 +59,7 @@
                 <div class="about-content">
                     <div class="section-title">
                         <hr />
-                        <span>О пилатесе</span>
+                        <span>о пилатесе</span>
                     </div>
                     <p>
                         Пилатес соединяет элементы растяжки<br>
@@ -69,17 +74,17 @@
                     <a href="#">подробнее &nbsp;&nbsp; <i class="fas fa-chevron-right"></i></a>
                 </div>
                 <div class="about-photo">
-                    <img src="images/about-photo1.png" class="img-fluid" alt=""/>
+                    <img src="images/about-photo1.png" class="img-fluid" alt="" />
                     <img src="images/about-circles.png" class="img-fluid" alt="" />
-                    <img src="images/about-photo2.png" class="img-fluid" alt=""/>
+                    <img src="images/about-photo2.png" class="img-fluid" alt="" />
                 </div>
             </div>
-            <img src="images/nav-right-02.png" class="img-fluid nav-right" alt=""/>
+            <img src="images/nav-right-02.png" class="img-fluid nav-right" alt="" />
         </div>
     </section>
 
     <!-- ===============================  shedule  =============================================== -->
-    <section class="shedule" style="background-color: burlywood;">
+    <section class="shedule">
         <div class="container">
             <div class="section-title">
                 <hr>
@@ -87,30 +92,39 @@
             </div>
             <div class="row level">
                 <div class="level-item">
-                    <p>уровень</p>
-                    <span>новичок</span>
+                    <span class="level-number">01</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>новичок</span>
+                    </div>
                     <p class="cost">150 руб. / занятие</p>
-                    <p>пн  9:00 - 10:00</p>
-                    <p>ср  9:00 - 10:00</p>
-                    <p>пт  9:00 - 10:00</p>
+                    <p><span class="week-day">пн</span> 9:00 - 10:00</p>
+                    <p><span class="week-day">ср</span> 9:00 - 10:00</p>
+                    <p><span class="week-day">пт</span> 9:00 - 10:00</p>
                     <a href="#">записаться</a>
                 </div>
                 <div class="level-item">
-                    <p>уровень</p>
-                    <span>профи</span>
+                    <span class="level-number">02</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>профи</span>
+                    </div>
                     <p class="cost">200 руб. / занятие</p>
-                    <p>пн  18:15 - 19:45</p>
-                    <p>ср  18:15 - 19:45</p>
-                    <p>пт  18:15 - 19:45</p>
+                    <p><span class="week-day">пн</span> 18:15 - 19:45</p>
+                    <p><span class="week-day">ср</span> 18:15 - 19:45</p>
+                    <p><span class="week-day">пт</span> 18:15 - 19:45</p>
                     <a href="#">записаться</a>
                 </div>
                 <div class="level-item">
-                    <p>уровень</p>
-                    <span>мастер</span>
+                    <span class="level-number">03</span>
+                    <div class="level-item-title">
+                        <p>уровень</p>
+                        <span>мастер</span>
+                    </div>
                     <p class="cost">350 руб. / занятие</p>
-                    <p>пн  20:00 - 21:30</p>
-                    <p>ср  20:00 - 21:30</p>
-                    <p>пт  20:00 - 21:30</p>
+                    <p><span class="week-day">пн</span> 20:00 - 21:30</p>
+                    <p><span class="week-day">ср</span> 20:00 - 21:30</p>
+                    <p><span class="week-day">пт</span> 20:00 - 21:30</p>
                     <a href="#">записаться</a>
                 </div>
             </div>
@@ -120,8 +134,15 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

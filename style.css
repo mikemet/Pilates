@@ -134,6 +134,10 @@ section {
         font-weight: bold;
     }
 
+    .section-title span::first-letter {
+        text-transform: capitalize;
+    }
+
 .about-content a {
     font-size: 0.8rem;
     font-weight: bold;
@@ -179,15 +183,63 @@ section {
 .level {
     display: flex;
     justify-content: center;
+    margin-top: 4.375rem;
 }
 
 .level-item {
     display: flex;
     flex-direction: column;
+    position: relative;
+    background-color: #9cb269;
+    padding: 3rem 3rem;
+    margin: 0 0.3rem;
+    z-index: 100;
+
     color: #ffffff;
+    line-height: 0.8rem;
+}
+
+.level-item:first-child {
+    background-color: #c8d4ac;
+}
+
+.level-item:nth-child(2) {
+    background-color: #b2c38a;
+}
+
+.level-number {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    z-index: -100;
+
+    font-family: Roboto-Regular;
+    font-size: 8.25rem;
+    color: #ffffff;
+    opacity: .1;
+}
+
+.level-item-title {
+    line-height: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+    .level-item-title span {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .level-item-title p {
+        font-size: 0.875rem;
+    }
+
+.week-day, .cost {
+    font-family: Roboto-Regular;
+    font-weight: bold;
 }
 
 .cost {
-    font-weight: bold;
+    margin-bottom: 1.5rem;
 }
 
