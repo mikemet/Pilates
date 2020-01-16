@@ -170,3 +170,24 @@ section {
         top: 30%;
         right: 51%;
     }
+
+/* ===============================  shedule  =============================================== */
+.shedule {
+
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+}
+
+.level-item {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.cost {
+    font-weight: bold;
+}
+
