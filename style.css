@@ -174,9 +174,6 @@ section {
 }
 
 /* ===============================  shedule  =============================================== */
-
-.shedule {}
-
 .level {
     display        : flex;
     justify-content: center;
@@ -260,17 +257,19 @@ section {
 }
 
 /* =================================  lessons  ====================================     */
-
-.lessons {}
-
 .lessons-item {
-    display: flex;
+    display        : flex;
     justify-content: space-around;
-    padding: 2rem 0;
+    padding        : 2rem 0;
+}
+
+.lessons-item:last-child,
+.lessons-item:nth-child(3) {
+    flex-direction: row-reverse;
 }
 
 .lessons-content {
-    margin-top: 6rem;
+    margin-top: 9rem;
 }
 
 .lessons-content span {
@@ -287,37 +286,10 @@ section {
     text-transform: capitalize;
 }
 
-.lessons-photo {
-    padding-top : 2rem;
+.lessons-item img {
+    width: 35%;
 }
 
-.lessons-photo img {
-    width: 70%;
-}
-
-#lessons-photo-1,
-#lessons-photo-2,
-#lessons-photo-3,
-#lessons-photo-4,
-#lessons-points-1,
-#lessons-points-2 {
-    position: absolute;
-}
-
-#lessons-photo-1 {
-    width: 23%;
-    top  : 2%;
-    left : 53%;
-}
-
-#lessons-points-1 {
-    width: 8%;
-    top  : 14%;
-    left : 70%;
-}
-
-#lessons-photo-2 {
-    width: 16%;
-    top  : 44%;
-    left : 16%;
+.shift {
+    margin-top: -5rem;
 }
