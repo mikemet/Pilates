@@ -295,3 +295,15 @@ section {
 }
 
 /* ===========================================  comments  ================================= */
+.carousel-item {
+    display: flex;
+}
+
+/* .carousel-item img {
+    width: 100%;
+} */
+
+.carousel-item-content {
+    width: 45%;
+}
+
