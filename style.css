@@ -295,15 +295,59 @@ section {
 }
 
 /* ===========================================  comments  ================================= */
-.carousel-item {
+.carouselComments {
+    margin: 4rem 0;
+    padding: 4rem 0;
+}
+
+.carousel-inner {
+    background-color: silver;
+}
+
+.comment-item {
+    display: inline-flex;
+    justify-content: center;
+    /* padding: 0 9rem 0; */
+    background-color: tan;
+}
+
+.comment-item img {
+    border: 0;
+    border-radius: 50%;
+    margin-right: 2rem;
+    float: left;
+}
+
+.comment-content {
     display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 35%;
 }
 
-/* .carousel-item img {
-    width: 100%;
-} */
-
-.carousel-item-content {
-    width: 45%;
+.comment-item span {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
 }
+
+.comment-item-social {
+    display: inline-flex;
+    flex-flow: nowrap row;
+    align-items: top;
+}
+
+.comment-item-social p {
+    font-weight: bold;
+}
+
+.comment-item-social a {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.comment-arrow {
+    color: red;
+}
+
 
