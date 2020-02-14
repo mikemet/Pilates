@@ -301,15 +301,16 @@ section {
 }
 
 .carousel-inner {
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    /* text-align: center; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    padding: 0 18%;
 }
 
 .carousel-item {
-    height: 15rem;
+    /* height: 20rem; */
     background-color: tan;
     text-align: left;
 }
@@ -322,10 +323,10 @@ section {
 }
 
 .comment-content {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    width: 35%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: flex-start; */
+    /* width: 40%; */
 }
 
 .comment-content span {
@@ -349,9 +350,15 @@ section {
     font-size: 1.2rem;
 }
 
-.carousel .comment-arrow {
-    color: red;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    /* background: red; */
     outline: 2px solid red;
+    color: green;
+}
+
+.carousel .fas {
+    color: #91aa59;
+    font-size: 3rem;
 }
 
 
