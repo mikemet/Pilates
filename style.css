@@ -296,48 +296,47 @@ section {
 
 /* ===========================================  comments  ================================= */
 .carousel {
-    margin: 3rem 0;
+    display: flex;
+    margin : 3rem 0;
     padding: 0;
+    outline: 2px solid;
 }
 
 .carousel-inner {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* margin-right: auto; */
-    /* margin-left: auto; */
-    padding: 0 18%;
+    margin-left : 18%;
+    margin-right: 18%;
+    outline: 2px solid yellowgreen;
 }
 
 .carousel-item {
-    /* height: 20rem; */
     background-color: tan;
-    text-align: left;
+    text-align      : left;
+    padding-top: 2.5rem;
+    margin-bottom: 4rem;
+    outline: 2px solid crimson;
 }
 
 .carousel-item img {
-    border: 0;
+    border       : 0;
     border-radius: 50%;
-    margin-right: 2rem;
-    float: left;
+    margin-right : 2rem;
+    float        : left;
 }
 
 .comment-content {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-content: flex-start; */
-    /* width: 40%; */
+    display: flex;
+    flex-direction: column;
 }
 
 .comment-content span {
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size     : 1.4rem;
+    font-weight   : bold;
     text-transform: capitalize;
 }
 
 .comment-item-social {
-    display: inline-flex;
-    flex-flow: nowrap row;
+    display    : inline-flex;
+    flex-flow  : nowrap row;
     align-items: top;
 }
 
@@ -347,18 +346,16 @@ section {
 
 .comment-item-social a {
     margin-left: 1rem;
-    font-size: 1.2rem;
+    font-size  : 1.2rem;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    /* background: red; */
-    outline: 2px solid red;
-    color: green;
+.slide li {
+    width           : 0.7rem;
+    height          : 0.7rem;
+    background-color: #91aa59;
+    margin-right: 1.6rem;
 }
 
-.carousel .fas {
-    color: #91aa59;
-    font-size: 3rem;
+.slide li:last-child {
+    margin-right: 0;
 }
-
-
