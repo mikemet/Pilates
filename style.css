@@ -377,10 +377,12 @@ section {
 
 /* ======================================  contacts  ========================================= */
 .contacts-map {
+    display: flex;
     background-image: url('/images/contacts-map.jpg');
     background-repeat: no-repeat;
     padding-top: 3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    box-shadow: 0 0 5px;
 }
 
 .contacts-content {
@@ -388,8 +390,10 @@ section {
     width: 25%;
     text-align: left;
     margin-left:3rem;
+    margin-bottom: 3rem;
     padding: 2.5rem;
     color: #ffffff;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
 
 .contacts-content span {
