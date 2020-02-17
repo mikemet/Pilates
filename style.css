@@ -312,12 +312,13 @@ section {
 }
 
 .carousel-item {
+    position: relative;
     text-align   : left;
     padding-top  : 6rem;
     margin-bottom: 4rem;
 }
 
-.carousel-item img {
+.slider-photo {
     border       : 0;
     border-radius: 50%;
     margin-right : 2rem;
@@ -339,7 +340,6 @@ section {
     display    : inline-flex;
     flex-flow  : nowrap row;
     align-items: top;
-    margin-top : 1rem;
 }
 
 .comment-item-social p {
@@ -349,6 +349,18 @@ section {
 .comment-item-social a {
     margin-left: 1rem;
     font-size  : 1.2rem;
+    color: #91aa59;
+}
+
+.comment-item-social a:hover {
+    color: #2a4f37;
+}
+
+.slider-circles {
+    position: absolute;
+    width: 15%;
+    left: 34rem;
+    top: 3rem;
 }
 
 .slide li {
