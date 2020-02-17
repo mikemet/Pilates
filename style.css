@@ -29,14 +29,14 @@ body {
 
 section {
     padding: 3rem 0;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 }
 
 .container {
     padding-left : 4rem;
     padding-right: 4rem;
     position     : relative;
-    outline      : 2px solid red;
+    /* outline      : 2px solid red; */
 }
 
 /* .clearfix::after {
