@@ -312,10 +312,11 @@ section {
 }
 
 .carousel-item {
-    position: relative;
+    position     : relative;
     text-align   : left;
     padding-top  : 6rem;
     margin-bottom: 4rem;
+    box-shadow   : 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
 .slider-photo {
@@ -349,7 +350,7 @@ section {
 .comment-item-social a {
     margin-left: 1rem;
     font-size  : 1.2rem;
-    color: #91aa59;
+    color      : #91aa59;
 }
 
 .comment-item-social a:hover {
@@ -358,9 +359,9 @@ section {
 
 .slider-circles {
     position: absolute;
-    width: 15%;
-    left: 34rem;
-    top: 3rem;
+    width   : 15%;
+    left    : 34rem;
+    top     : 3rem;
 }
 
 .slide li {
