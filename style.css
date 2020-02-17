@@ -377,9 +377,21 @@ section {
 
 /* ======================================  contacts  ========================================= */
 .contacts-map {
-
+    background-image: url('/images/contacts-map.jpg');
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    margin-top: 3rem;
 }
 
 .contacts-content {
-    
+    background-color: rgb(145, 170, 89);
+    width: 25%;
+    text-align: left;
+    margin-left:3rem;
+    padding: 2.5rem;
+    color: #ffffff;
+}
+
+.contacts-content span {
+    font-weight: bold;
 }
