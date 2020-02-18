@@ -39,12 +39,6 @@ section {
     /* outline      : 2px solid red; */
 }
 
-/* .clearfix::after {
-	content: '';
-	display: table;
-	clear  : both;
-} */
-
 /*===================================  header  ==================================*/
 
 .header {
