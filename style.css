@@ -106,6 +106,19 @@ section {
     left    : 98%;
 }
 
+.navbar {
+    /* position: relative; */
+}
+
+.navbar-nav {
+    background-color: rgba(122, 122, 122, 0.5);
+}
+
+.collapse {
+    /* width: 100%; */
+    /* position: absolute; */
+}
+
 /*======================================  about  =========================================*/
 
 .about {
