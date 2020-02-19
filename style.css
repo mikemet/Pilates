@@ -28,14 +28,14 @@ body {
 }
 
 section {
-    padding: 3rem 0;
+    padding   : 3rem 0;
     /* outline: 2px solid blue; */
 }
 
 .container {
-    padding-left : 4rem;
-    padding-right: 4rem;
-    position     : relative;
+    padding-left    : 4rem;
+    padding-right   : 4rem;
+    position        : relative;
     /* outline      : 2px solid red; */
 }
 
@@ -98,6 +98,7 @@ section {
     position: absolute;
     top     : 0rem;
     left    : 48%;
+    z-index: 100;
 }
 
 .nav-right {
@@ -107,16 +108,34 @@ section {
 }
 
 .navbar {
-    /* position: relative; */
+    position: relative;
 }
 
 .navbar-nav {
-    background-color: rgba(122, 122, 122, 0.5);
+    background-color: #91aa59;
+    /* opacity: 40%; */
+}
+
+.navbar-nav li {
+}
+
+.nav-link {
+    font-size       : 1.6rem;
+    line-height     : 2rem;
+    font-family     : "Roboto-Regular";
+    font-weight     : bold;
+    color: #ffffff;
+}
+
+.navbar-nav .active {
+    list-style: disc;
 }
 
 .collapse {
-    /* width: 100%; */
-    /* position: absolute; */
+    width   : 70vw;
+    position: absolute;
+    top: 4rem;
+    z-index: 1000;
 }
 
 /*======================================  about  =========================================*/
@@ -424,7 +443,7 @@ footer {
 }
 
 .footer-social a {
-    color      : black;
+    color       : black;
     margin-right: 1.3rem;
 }
 
