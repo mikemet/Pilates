@@ -492,6 +492,11 @@ label a:hover {
     margin-right: 0;
 }
 
+.carousel-indicators .active {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
 /* ======================================  contacts  ========================================= */
 .contacts-map {
     display          : flex;
