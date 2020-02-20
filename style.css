@@ -433,7 +433,7 @@ label a:hover {
     text-align   : left;
     padding-top  : 6rem;
     margin-bottom: 4rem;
-    box-shadow   : 0 0 10px 5px rgba(221, 221, 221, 1);
+    box-shadow   : 0 0 10px 3px rgba(221, 221, 221, 1);
 }
 
 .slider-photo {
