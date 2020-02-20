@@ -79,18 +79,20 @@ section {
 .header-left p {
     font-size : 1.125rem;
     margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
-.header-left button {
+.header-left a {
     background                : transparent;
     padding                   : 1rem 2rem;
-    border                    : 2px solid #ffffff;
+    border                    : 2px solid #ffffff; 
     border-top-right-radius   : 2rem;
     border-top-left-radius    : 2rem;
     border-bottom-left-radius : 2rem;
-    border-bottom-right-radius: 2rem;
+    border-bottom-right-radius: 2rem; 
     margin-top                : 2.4rem;
     color                     : #ffffff;
+    text-decoration: none;
 }
 
 .header-photo {
