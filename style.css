@@ -43,10 +43,11 @@ section {
 
 .header {
     background-image       : url('images/header-bg.png');
+    background-position: top center;
+    background-size: cover;
     -moz-background-size   : 100%;
     -webkit-background-size: 100%;
     -o-background-size     : 100%;
-    background-size        : 100%;
     background-repeat      : no-repeat;
     padding-top            : 1.5rem;
 }
@@ -549,4 +550,34 @@ footer {
 
 .footer-social a:last-child {
     margin-right: 0;
+}
+
+/* ======================================  sm  ============================================ */
+@media(max-width: 576px) {
+
+}
+
+/* ========================================= md =================================================== */
+@media(max-width: 768px) {
+
+}
+
+/* ==============================================  lg  ============================================ */
+@media(max-width: 992px) {
+    .header-left {
+        padding-top: 4rem;
+    }
+
+    .header-left span {
+        font-size: 2rem;
+    }
+
+    .nav-right {
+        top: 20%;
+        left: 100%;
+    }
+
+    label a {
+        font-size: 1.5rem;
+    }
 }
