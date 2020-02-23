@@ -648,7 +648,8 @@ footer {
 /* ==============================================  lg  ============================================ */
 @media(max-width: 992px) {
     .nav-right {
-        top: 40%;
+        top: 30%;
+        left: 110%;
     }
 
     .header-left {
@@ -671,14 +672,14 @@ footer {
 
     .about-photo img:first-child {
         width: 20%;
-        top: 47%;
-        right: 45%;
+        top: 43%;
+        right: 32%;
     }
 
     .about-photo img:nth-child(2) {
         width: 11%;
-        top: 28%;
-        right: 48%;
+        top: 26%;
+        right: 38%;
     }
 
     .about-content p {
