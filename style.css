@@ -118,10 +118,6 @@ section {
     box-sizing: border-box;
 }
 
-label {
-    background-color: #91aa59;
-}
-
 label .menu {
     position          : absolute;
     right             : 44%;
@@ -175,8 +171,13 @@ label input {
 }
 
 label input:checked+.menu {
-    box-shadow   : 0 0 0 50vw #91aa59, 0 0 0 50vh #91aa59;
+    box-shadow   : 0 0 0 100vw #91aa59, 0 0 0 100vh #91aa59;
     border-radius: 0;
+}
+
+label input:checked+.menu {
+    left: 90%;
+    background-color: #91aa59;
 }
 
 label input:checked+.menu .hamburger {
