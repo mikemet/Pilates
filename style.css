@@ -239,14 +239,17 @@ label a:hover {
 
 /*======================================  about  =========================================*/
 
-.about {
+.about-row {
+    display    : inline-block;
     margin-top: 2rem;
+    outline: 2px solid;
 }
 
 .about-content {
     display    : flex;
     flex-flow  : column nowrap;
     align-items: start;
+    outline: 2px solid red;
 }
 
 .section-title {
@@ -272,36 +275,17 @@ label a:hover {
 }
 
 .about-content a {
-    font-size     : 0.8rem;
     font-weight   : bold;
     text-transform: uppercase;
     color         : #2a4f37;
 }
 
 .about-photo {
-    display        : flex;
-    justify-content: end;
-}
-
-.about-photo img:first-child {
-    position: absolute;
-    width   : 22%;
-    z-index : 100;
-    top     : 51%;
-    right   : 48%;
-}
-
-.about-photo img:last-child {
-    width     : 80%;
-    margin-top: 1rem;
-    z-index   : 0;
-}
-
-.about-photo img:nth-child(2) {
-    position: absolute;
-    z-index : -100;
-    top     : 30%;
-    right   : 51%;
+    width: 85%;
+    display: block;
+    outline: 2px solid blue;
+    margin-top: -27%;
+    margin-left: 35%; 
 }
 
 /* ===============================  shedule  =============================================== */
@@ -357,10 +341,6 @@ label a:hover {
     font-weight   : bold;
 }
 
-.level-item-title p {
-    font-size: 0.875rem;
-}
-
 .week-day,
 .cost {
     font-family: Roboto-Regular;
@@ -409,7 +389,6 @@ label a:hover {
 }
 
 .lessons-content p {
-    font-size : 0.875rem;
     margin-top: 1.5rem;
 }
 
@@ -517,7 +496,6 @@ label a:hover {
 
 .contacts-content {
     background-color: rgb(145, 170, 89);
-    width           : 25%;
     text-align      : left;
     margin-left     : 3rem;
     margin-bottom   : 3rem;
