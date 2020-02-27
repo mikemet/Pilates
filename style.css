@@ -178,6 +178,7 @@ label input:checked+.menu {
 label input:checked+.menu {
     left: 90%;
     background-color: #91aa59;
+    opacity: .7;
 }
 
 label input:checked+.menu .hamburger {
@@ -198,7 +199,11 @@ label input:checked+.menu .hamburger:before {
 }
 
 label input:checked+.menu+ul {
+    padding: 1rem 0.8rem;
     opacity: 1;
+    background-color: #2E8B57;
+    border: 0;
+    border-radius: 1rem;
 }
 
 label ul {
@@ -503,7 +508,7 @@ label a:hover {
 /* ======================================  contacts  ========================================= */
 .contacts-map {
     display          : flex;
-    background-image : url('/images/contacts-map.jpg');
+    background-image : url('images/contacts-map.jpg');
     background-repeat: no-repeat;
     padding-top      : 3rem;
     margin-top       : 2rem;
