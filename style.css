@@ -111,7 +111,7 @@ section {
     left    : 98%;
 }
 
-/* =================  navbar  ==================== */
+/* ======================================  navbar  ======================================= */
 *,
 *:before,
 *:after {
@@ -171,7 +171,7 @@ label input {
 }
 
 label input:checked+.menu {
-    box-shadow   : 0 -38rem 0 100vw #91aa59;
+    box-shadow   : 0 -30rem 0 100vw #91aa59;
     border-radius: 0;
 }
 
@@ -199,8 +199,8 @@ label input:checked+.menu .hamburger:before {
 }
 
 label input:checked+.menu+ul {
-    padding: 1rem 0.8rem;
-    opacity: 1;
+    padding: 1rem 4rem;
+    opacity: .8;
     background-color: #2E8B57;
     border: 0;
     border-radius: 1rem;
@@ -246,7 +246,7 @@ label a:hover {
 }
 
 .about-content {
-    display    : flex;
+    /* display    : flex; */
     flex-flow  : column nowrap;
     align-items: start;
     outline: 2px solid red;
@@ -282,7 +282,7 @@ label a:hover {
 
 .about-photo {
     width: 85%;
-    display: block;
+    /* display: block; */
     outline: 2px solid blue;
     margin-top: -27%;
     margin-left: 35%; 
