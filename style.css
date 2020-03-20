@@ -398,10 +398,8 @@ label a:hover {
 
 .lessons-item img {
     width: 35%;
-}
-
-.shift {
-    margin-top: -5rem;
+    margin-top: -2rem;
+    display: block;
 }
 
 /* ===========================================  comments  ================================= */
@@ -627,6 +625,7 @@ footer {
     .about-content p {
         font-size: 0.8rem;
     }
+
 }
 
 /* ==============================================  lg  ============================================ */
@@ -672,5 +671,13 @@ footer {
 
     .contacts-content {
         padding: 1rem;
+    }
+
+    .level-item {
+        margin-bottom: 2rem;
+    }
+
+    .level-item:last-child {
+        margin-bottom: 0;
     }
 }
