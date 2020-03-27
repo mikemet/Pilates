@@ -242,14 +242,14 @@ label a:hover {
 .about-row {
     display    : inline-block;
     margin-top: 2rem;
-    outline: 2px solid;
+    /* outline: 2px solid; */
 }
 
 .about-content {
     /* display    : flex; */
     flex-flow  : column nowrap;
     align-items: start;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .section-title {
@@ -282,7 +282,7 @@ label a:hover {
 
 .about-photo {
     width: 85%;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     margin-top: -27%;
     margin-left: 35%; 
 }
@@ -404,7 +404,7 @@ label a:hover {
     /* width: 30%; */
     margin-top: -2rem;
     /* display: block; */
-    flex-grow: 1;
+    flex-grow: 0.8;
 }
 
 /* ===========================================  comments  ================================= */
