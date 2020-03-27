@@ -373,7 +373,7 @@ label a:hover {
     padding        : 2rem 0;
     flex-flow: row nowrap;
     align-items: center;
-    outline: 2px solid;
+    /* outline: 2px solid; */
 }
 
 .lessons-item:nth-child(4),
@@ -381,9 +381,9 @@ label a:hover {
     flex-direction: row-reverse;
 }
 
-.lessons-item img:nth-child(4) {
+/* .lessons-item img:nth-child(4) {
     margin-right: 2rem;
-}
+} */
 
 .lessons-content {
     margin-top: 9rem;
@@ -408,7 +408,7 @@ label a:hover {
     /* width: 30%; */
     margin-top: -2rem;
     /* display: block; */
-    flex-grow: 0.8;
+    flex-grow: 0.6;
 }
 
 /* ===========================================  comments  ================================= */
