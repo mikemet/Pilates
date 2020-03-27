@@ -381,6 +381,10 @@ label a:hover {
     flex-direction: row-reverse;
 }
 
+.lessons-item img:nth-child(4) {
+    margin-right: 2rem;
+}
+
 .lessons-content {
     margin-top: 9rem;
     flex-grow: 1;
