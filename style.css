@@ -282,7 +282,6 @@ label a:hover {
 
 .about-photo {
     width: 85%;
-    /* display: block; */
     outline: 2px solid blue;
     margin-top: -27%;
     margin-left: 35%; 
@@ -369,9 +368,12 @@ label a:hover {
 
 /* =================================  lessons  ====================================     */
 .lessons-item {
-    display        : flex;
-    justify-content: space-around;
+    display        : inline-flexbox;
+    justify-content: space-between;
     padding        : 2rem 0;
+    flex-flow: row nowrap;
+    align-items: center;
+    outline: 2px solid;
 }
 
 .lessons-item:nth-child(4),
@@ -381,6 +383,8 @@ label a:hover {
 
 .lessons-content {
     margin-top: 9rem;
+    flex-grow: 1;
+
 }
 
 .lessons-content span {
@@ -397,9 +401,10 @@ label a:hover {
 }
 
 .lessons-item img {
-    width: 35%;
+    /* width: 30%; */
     margin-top: -2rem;
-    display: block;
+    /* display: block; */
+    flex-grow: 1;
 }
 
 /* ===========================================  comments  ================================= */
