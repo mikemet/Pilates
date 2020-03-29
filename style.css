@@ -368,27 +368,13 @@ label a:hover {
 
 /* =================================  lessons  ====================================     */
 .lessons-item {
-    display        : inline-flexbox;
-    justify-content: space-between;
-    padding        : 2rem 0;
-    flex-flow: row nowrap;
-    align-items: center;
-    /* outline: 2px solid; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
-
-.lessons-item:nth-child(4),
-.lessons-item:nth-child(6) {
-    flex-direction: row-reverse;
-}
-
-/* .lessons-item img:nth-child(4) {
-    margin-right: 2rem;
-} */
 
 .lessons-content {
     margin-top: 9rem;
-    flex-grow: 1;
-
 }
 
 .lessons-content span {
@@ -405,10 +391,7 @@ label a:hover {
 }
 
 .lessons-item img {
-    /* width: 30%; */
     margin-top: -2rem;
-    /* display: block; */
-    flex-grow: 0.6;
 }
 
 /* ===========================================  comments  ================================= */
