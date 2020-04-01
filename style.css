@@ -239,17 +239,17 @@ label a:hover {
 
 /*======================================  about  =========================================*/
 
-.about-row {
-    display    : inline-block;
+.about-item {
+    display    : flex;
     margin-top: 2rem;
-    /* outline: 2px solid; */
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .about-content {
-    /* display    : flex; */
-    flex-flow  : column nowrap;
+    /* flex-flow  : column nowrap; */
     align-items: start;
-    /* outline: 2px solid red; */
+    flex-grow: 1;
 }
 
 .section-title {
@@ -281,10 +281,7 @@ label a:hover {
 }
 
 .about-photo {
-    width: 85%;
-    /* outline: 2px solid blue; */
-    margin-top: -27%;
-    margin-left: 35%; 
+    flex-grow: .2;
 }
 
 /* ===============================  shedule  =============================================== */
