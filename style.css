@@ -45,12 +45,14 @@ section {
 .header {
     background-image       : url('images/header-bg.png');
     background-position    : top center;
-    background-size        : cover;
-    -moz-background-size   : 100%;
+    background-size        : contain;
+    /* -moz-background-size   : 100%;
     -webkit-background-size: 100%;
-    -o-background-size     : 100%;
-    background-repeat      : no-repeat;
-    padding-top            : 1.5rem;
+    -o-background-size     : 100%;*/
+    background-repeat      : no-repeat; 
+    /* padding-top            : 1.5rem; */
+    width: 100%;
+    height: 100vh;
 }
 
 .header-top {
@@ -176,9 +178,9 @@ label input:checked+.menu {
 }
 
 label input:checked+.menu {
-    left: 90%;
+    left            : 90%;
     background-color: #91aa59;
-    opacity: .7;
+    opacity         : .7;
 }
 
 label input:checked+.menu .hamburger {
@@ -199,11 +201,11 @@ label input:checked+.menu .hamburger:before {
 }
 
 label input:checked+.menu+ul {
-    padding: 1rem 4rem;
-    opacity: .8;
+    padding         : 1rem 4rem;
+    opacity         : .8;
     background-color: #2E8B57;
-    border: 0;
-    border-radius: 1rem;
+    border          : 0;
+    border-radius   : 1rem;
 }
 
 label ul {
@@ -240,16 +242,16 @@ label a:hover {
 /*======================================  about  =========================================*/
 
 .about-item {
-    display    : flex;
-    margin-top: 2rem;
-    flex-wrap: nowrap;
+    display        : flex;
+    margin-top     : 2rem;
+    flex-wrap      : nowrap;
     justify-content: space-between;
 }
 
 .about-content {
     /* flex-flow  : column nowrap; */
-    align-items: start;
-    flex-grow: 1;
+    align-items   : start;
+    flex-grow     : 1;
 }
 
 .section-title {
@@ -365,8 +367,8 @@ label a:hover {
 
 /* =================================  lessons  ====================================     */
 .lessons-item {
-    display: flex;
-    flex-wrap: nowrap;
+    display        : flex;
+    flex-wrap      : nowrap;
     justify-content: space-evenly;
 }
 
@@ -594,20 +596,20 @@ footer {
     }
 
     .about-photo img:last-child {
-        width: 70%;
-        margin-top: -11rem;
+        width       : 70%;
+        margin-top  : -11rem;
         padding-left: 12rem;
     }
 
     .about-photo img:first-child {
         width: 20%;
-        top: 47%;
+        top  : 47%;
         right: 33%;
     }
 
     .about-photo img:nth-child(2) {
         width: 15%;
-        top: 35%;
+        top  : 35%;
         right: 35%;
     }
 
@@ -620,7 +622,7 @@ footer {
 /* ==============================================  lg  ============================================ */
 @media(max-width: 992px) {
     .nav-right {
-        top: 30%;
+        top : 30%;
         left: 110%;
     }
 
@@ -637,20 +639,20 @@ footer {
     }
 
     .about-photo img:last-child {
-        width: 70%;
-        margin-top: -13rem;
+        width       : 70%;
+        margin-top  : -13rem;
         padding-left: 12rem;
     }
 
     .about-photo img:first-child {
         width: 20%;
-        top: 43%;
+        top  : 43%;
         right: 32%;
     }
 
     .about-photo img:nth-child(2) {
         width: 11%;
-        top: 26%;
+        top  : 26%;
         right: 38%;
     }
 
