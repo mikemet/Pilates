@@ -369,7 +369,7 @@ label a:hover {
 .lessons-item {
     display        : flex;
     flex-wrap      : nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .lessons-content {
@@ -391,6 +391,10 @@ label a:hover {
 
 .lessons-item img {
     margin-top: -2rem;
+}
+
+.lessons-item img:last-child {
+    margin-top: 0;
 }
 
 /* ===========================================  comments  ================================= */
@@ -616,7 +620,6 @@ footer {
     .about-content p {
         font-size: 0.8rem;
     }
-
 }
 
 /* ==============================================  lg  ============================================ */
