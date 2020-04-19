@@ -64,6 +64,12 @@ section {
     text-transform: capitalize;
 }
 
+.nav-right {
+    position: absolute;
+    top     : 35%;
+    left    : 98%;
+    /* height: 207px; */
+}
 /*===================================  header  ==================================*/
 
 .header {
@@ -134,12 +140,6 @@ section {
     top     : 0rem;
     left    : 48%;
     z-index : 100;
-}
-
-.nav-right {
-    position: absolute;
-    top     : 35%;
-    left    : 98%;
 }
 
 /* ======================================  navbar  ======================================= */
@@ -381,12 +381,6 @@ label a:hover {
 }
 
 /* =================================  lessons  ====================================     */
-.lessons-item {
-    display        : flex;
-    flex-wrap      : nowrap;
-    justify-content: space-between;
-}
-
 .lessons-content {
     margin-top: 9rem;
 }
