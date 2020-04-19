@@ -1,3 +1,5 @@
+/* ==============================  common  =========================== */
+
 @font-face {
     font-family: 'Roboto-Italic';
     src        : url('fonts/Roboto-Italic.ttf') format('truetype');
@@ -38,6 +40,28 @@ section {
     padding-right   : 4rem;
     position        : relative;
     /* outline      : 2px solid red; */
+}
+
+.section-title {
+    display    : inline-flex;
+    align-items: center;
+}
+
+.section-title hr {
+    width           : 1.5rem;
+    margin-right    : 1rem;
+    border          : 1px solid gray;
+    background-color: gray;
+}
+
+.section-title span {
+    font-family: Roboto-Regular;
+    font-size  : 2rem;
+    font-weight: bold;
+}
+
+.section-title span::first-letter {
+    text-transform: capitalize;
 }
 
 /*===================================  header  ==================================*/
@@ -97,6 +121,11 @@ section {
     margin-top                : 2.4rem;
     color                     : #ffffff;
     text-decoration           : none;
+}
+
+.header-left a:hover {
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
 }
 
 .header-photo {
@@ -249,37 +278,18 @@ label a:hover {
 }
 
 .about-content {
-    /* flex-flow  : column nowrap; */
     align-items   : start;
     flex-grow     : 1;
-}
-
-.section-title {
-    display    : inline-flex;
-    align-items: center;
-}
-
-.section-title hr {
-    width           : 1.5rem;
-    margin-right    : 1rem;
-    border          : 1px solid gray;
-    background-color: gray;
-}
-
-.section-title span {
-    font-family: Roboto-Regular;
-    font-size  : 2rem;
-    font-weight: bold;
-}
-
-.section-title span::first-letter {
-    text-transform: capitalize;
 }
 
 .about-content a {
     font-weight   : bold;
     text-transform: uppercase;
     color         : #2a4f37;
+}
+
+.about-content a:hover {
+    color: dodgerblue;
 }
 
 .about-photo {
@@ -359,6 +369,11 @@ label a:hover {
     margin-top                : 2rem;
     font-weight               : bold;
     color                     : #ffffff;
+}
+
+.level-item a:hover {
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
 }
 
 .level-item a::first-letter {
