@@ -271,15 +271,11 @@ label a:hover {
 /*======================================  about  =========================================*/
 
 .about-item {
-    display        : flex;
     margin-top     : 2rem;
-    flex-wrap      : nowrap;
-    justify-content: space-between;
 }
 
 .about-content {
     align-items   : start;
-    flex-grow     : 1;
 }
 
 .about-content a {
@@ -291,15 +287,8 @@ label a:hover {
 .about-content a:hover {
     color: dodgerblue;
 }
-
-.about-photo {
-    flex-grow: .2;
-}
-
 /* ===============================  shedule  =============================================== */
 .level {
-    display        : flex;
-    justify-content: center;
     margin-top     : 4.375rem;
 }
 
@@ -312,7 +301,7 @@ label a:hover {
     padding-right   : 3rem;
     padding-bottom  : 4rem;
     padding-top     : 7rem;
-    margin          : 0 auto;
+    margin          : 0 0.5rem;
     z-index         : 100;
     color           : #ffffff;
     line-height     : 0.8rem;
@@ -369,6 +358,7 @@ label a:hover {
     margin-top                : 2rem;
     font-weight               : bold;
     color                     : #ffffff;
+    text-align: center;
 }
 
 .level-item a:hover {
