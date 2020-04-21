@@ -65,24 +65,18 @@ section {
 }
 
 .nav-right {
-    position: absolute;
-    top     : 35%;
-    left    : 98%;
+    position : absolute;
+    top      : 35%;
+    left     : 98%;
     /* height: 207px; */
 }
+
 /*===================================  header  ==================================*/
 
 .header {
-    background-image       : url('images/header-bg.png');
-    background-position    : top center;
-    background-size        : contain;
-    /* -moz-background-size   : 100%;
-    -webkit-background-size: 100%;
-    -o-background-size     : 100%;*/
-    background-repeat      : no-repeat; 
-    /* padding-top            : 1.5rem; */
-    width: 100%;
-    height: 100vh;
+    background     : url('images/header-bg.png') center center;
+    background-size: cover;
+    height         : 100vh;
 }
 
 .header-top {
@@ -130,7 +124,7 @@ section {
 }
 
 .header-left a:hover {
-    color: dodgerblue;
+    color : dodgerblue;
     border: 2px solid dodgerblue;
 }
 
@@ -271,11 +265,11 @@ label a:hover {
 /*======================================  about  =========================================*/
 
 .about-item {
-    margin-top     : 2rem;
+    margin-top: 2rem;
 }
 
 .about-content {
-    align-items   : start;
+    align-items: start;
 }
 
 .about-content a {
@@ -287,9 +281,10 @@ label a:hover {
 .about-content a:hover {
     color: dodgerblue;
 }
+
 /* ===============================  shedule  =============================================== */
 .level {
-    margin-top     : 4.375rem;
+    margin-top: 4.375rem;
 }
 
 .level-item {
@@ -358,11 +353,11 @@ label a:hover {
     margin-top                : 2rem;
     font-weight               : bold;
     color                     : #ffffff;
-    text-align: center;
+    text-align                : center;
 }
 
 .level-item a:hover {
-    color: dodgerblue;
+    color : dodgerblue;
     border: 2px solid dodgerblue;
 }
 
