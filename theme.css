@@ -82,37 +82,39 @@ img {
 }
 
 .header-top {
-    display        : inline-flex;
+    /* display        : inline-flex; */
     align-items    : center;
-    justify-content: space-between;
-    width          : 100%;
+    /* justify-content: space-between; */
+    /* width          : 100%; */
 }
 
 .header-top p {
-    font-family: Roboto-Regular;
+    font-family: 'Roboto-Regular';
     font-weight: bold;
 }
 
-.header-left {
+.header-content {
     padding-top   : 6rem;
     padding-bottom: 11rem;
     flex-flow     : column nowrap;
     color         : #ffffff;
 }
 
-.header-left span {
+.header-content span {
     font-size     : 3rem;
     line-height   : 1.2em;
     text-transform: uppercase;
 }
 
-.header-left p {
+.header-content p {
+    font-family: 'Roboto-Light';
     font-size    : 1.125rem;
+    font-weight: normal;
     margin-top   : 1rem;
     margin-bottom: 4rem;
 }
 
-.header-left a {
+.header-content a {
     background                : transparent;
     padding                   : 1rem 2rem;
     border                    : 2px solid #ffffff;
@@ -120,22 +122,13 @@ img {
     border-top-left-radius    : 2rem;
     border-bottom-left-radius : 2rem;
     border-bottom-right-radius: 2rem;
-    margin-top                : 2.4rem;
     color                     : #ffffff;
     text-decoration           : none;
 }
 
-.header-left a:hover {
+.header-content a:hover {
     color : dodgerblue;
     border: 2px solid dodgerblue;
-}
-
-.header-photo {
-    width   : 48%;
-    position: absolute;
-    top     : 0rem;
-    left    : 48%;
-    z-index : 100;
 }
 
 /* ======================================  navbar  ======================================= */
