@@ -1,4 +1,4 @@
-/* ==============================  common  =========================== */
+/* ==============================  global  =========================== */
 
 @font-face {
     font-family: 'Roboto-Italic';
@@ -22,24 +22,26 @@
 
 html {
     font-size  : 16px;
-    line-height: 1rem;
+    line-height: 0.7rem;
 }
 
 body {
-    font-family: Roboto-Light;
-    min-width  : 540px;
+    font-family: 'Roboto-Light';
+    min-width  : 320px;
 }
 
 section {
-    padding   : 3rem 0;
+    padding-top: 2rem;
     /* outline: 2px solid blue; */
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
-    padding-left    : 4rem;
-    padding-right   : 4rem;
     position        : relative;
-    /* outline      : 2px solid red; */
 }
 
 .section-title {
@@ -137,7 +139,7 @@ section {
 }
 
 /* ======================================  navbar  ======================================= */
-*,
+/* *,
 *:before,
 *:after {
     box-sizing: border-box;
@@ -260,11 +262,11 @@ label a {
 label a:hover {
     color          : rgb(83, 75, 75);
     text-decoration: none;
-}
+} */
 
 /*======================================  about  =========================================*/
 
-.about-item {
+/* .about-item {
     margin-top: 2rem;
 }
 
@@ -280,10 +282,10 @@ label a:hover {
 
 .about-content a:hover {
     color: dodgerblue;
-}
+} */
 
 /* ===============================  shedule  =============================================== */
-.level {
+/* .level {
     margin-top: 4.375rem;
 }
 
@@ -363,10 +365,10 @@ label a:hover {
 
 .level-item a::first-letter {
     text-transform: capitalize;
-}
+} */
 
 /* =================================  lessons  ====================================     */
-.lessons-content {
+/* .lessons-content {
     margin-top: 9rem;
 }
 
@@ -389,10 +391,10 @@ label a:hover {
 
 .lessons-item img:last-child {
     margin-top: 0;
-}
+} */
 
 /* ===========================================  comments  ================================= */
-.carousel {
+/* .carousel {
     display: flex;
     padding: 0;
 }
@@ -469,10 +471,10 @@ label a:hover {
 .carousel-indicators .active {
     width : 0.8rem;
     height: 0.8rem;
-}
+} */
 
 /* ======================================  contacts  ========================================= */
-.contacts-map {
+/* .contacts-map {
     display          : flex;
     background-image : url('images/contacts-map.jpg');
     background-repeat: no-repeat;
@@ -493,10 +495,10 @@ label a:hover {
 
 .contacts-content span {
     font-weight: bold;
-}
+} */
 
 /* ================================  footer  ================================ */
-footer {
+/* footer {
     background-color: #91aa59;
 }
 
@@ -522,10 +524,10 @@ footer {
 
 .footer-social a:last-child {
     margin-right: 0;
-}
+} */
 
 /* ======================================  sm  ============================================ */
-@media(max-width: 576px) {
+/* @media(max-width: 576px) {
     html {
         font-size  : 14px;
         line-height: 0.8rem;
@@ -543,10 +545,10 @@ footer {
         left  : 80%;
         height: 60%;
     }
-}
+} */
 
 /* ========================================= md =================================================== */
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
     .nav-right {
         left  : 110%;
         height: 60%;
@@ -614,10 +616,10 @@ footer {
     .about-content p {
         font-size: 0.8rem;
     }
-}
+} */
 
 /* ==============================================  lg  ============================================ */
-@media(max-width: 992px) {
+/* @media(max-width: 992px) {
     .nav-right {
         top : 30%;
         left: 110%;
@@ -668,4 +670,4 @@ footer {
     .level-item:last-child {
         margin-bottom: 0;
     }
-}
+} */
