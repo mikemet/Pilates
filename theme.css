@@ -69,7 +69,7 @@ img {
 .nav-right {
     position : absolute;
     top      : 35%;
-    left     : 98%;
+    right     : -3%;
     /* height: 207px; */
 }
 
@@ -247,7 +247,7 @@ label a:hover {
 
 /*======================================  about  =========================================*/
 
-/* .about-item {
+.about-item {
     margin-top: 2rem;
 }
 
@@ -263,7 +263,7 @@ label a:hover {
 
 .about-content a:hover {
     color: dodgerblue;
-} */
+}
 
 /* ===============================  shedule  =============================================== */
 /* .level {
