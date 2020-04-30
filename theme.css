@@ -81,6 +81,11 @@ img {
     height         : 100vh;
 }
 
+.logo {
+    margin-top: -2rem;
+    z-index: 100;
+}
+
 .header-content {
     padding-top   : 6rem;
     padding-bottom: 11rem;
