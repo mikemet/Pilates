@@ -127,10 +127,21 @@ img {
 /* ======================================  navbar  ======================================= */
 .main-menu {
     align-items: center;
+    font-size  : 1.8rem;
+    font-family: 'Roboto-LightItalic';
 }
 
-.navbar button {
-    border: none;
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.navbar-nav {
+    background-color: rgb(95, 158, 160, 0.4);
+    z-index: 100;
 }
 
 /* *,
