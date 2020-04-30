@@ -32,16 +32,16 @@ body {
 
 section {
     padding-top: 2rem;
-    /* outline: 2px solid blue; */
+    /* outline : 2px solid blue; */
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height   : auto;
 }
 
 .container {
-    position        : relative;
+    position: relative;
 }
 
 .section-title {
@@ -69,7 +69,7 @@ img {
 .nav-right {
     position : absolute;
     top      : 35%;
-    right     : -3%;
+    right    : -3%;
     /* height: 207px; */
 }
 
@@ -83,7 +83,7 @@ img {
 
 .logo {
     margin-top: -2rem;
-    z-index: 100;
+    z-index   : 100;
 }
 
 .header-content {
@@ -100,9 +100,9 @@ img {
 }
 
 .header-content p {
-    font-family: 'Roboto-Light';
+    font-family  : 'Roboto-Light';
     font-size    : 1.125rem;
-    font-weight: normal;
+    font-weight  : normal;
     margin-top   : 1rem;
     margin-bottom: 4rem;
 }
@@ -126,12 +126,10 @@ img {
 
 /* ======================================  navbar  ======================================= */
 .main-menu {
-    position: absolute;
-    top: 0;
-    left: 45%;
+    align-items: center;
 }
 
-.main-menu button {
+.navbar button {
     border: none;
 }
 
@@ -522,148 +520,19 @@ label a:hover {
     margin-right: 0;
 } */
 
-/* ======================================  sm  ============================================ */
-/* @media(max-width: 576px) {
-    html {
-        font-size  : 14px;
-        line-height: 0.8rem;
-    }
+/* ================================  media  ================================== */
 
-    .header-left {
-        margin-top: -2.5rem;
-    }
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
 
-    .header-left span {
-        font-size: 1rem;
-    }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
-    .nav-right {
-        left  : 80%;
-        height: 60%;
-    }
-} */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
 
-/* ========================================= md =================================================== */
-/* @media(max-width: 768px) {
-    .nav-right {
-        left  : 110%;
-        height: 60%;
-    }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
 
-    .header-top p {
-        font-size: 0.8rem;
-    }
-
-    label .menu {
-        right: 35%;
-    }
-
-    .header-left {
-        padding-top   : 0;
-        padding-bottom: 4rem;
-    }
-
-    .header-left span {
-        font-size: 1.5rem;
-    }
-
-    .header-left p {
-        font-size    : 0.9rem;
-        margin-bottom: 1rem;
-    }
-
-    .header-left a {
-        padding   : 0.6rem;
-        margin-top: 0.5rem;
-        font-size : 0.8rem;
-    }
-
-    .header-photo {
-        top : 2rem;
-        left: 50%;
-    }
-
-    label a {
-        font-size: 0.8rem;
-    }
-
-    label .menu {
-        background-color: rgba(145, 170, 89, .3);
-    }
-
-    .about-photo img:last-child {
-        width       : 70%;
-        margin-top  : -11rem;
-        padding-left: 12rem;
-    }
-
-    .about-photo img:first-child {
-        width: 20%;
-        top  : 47%;
-        right: 33%;
-    }
-
-    .about-photo img:nth-child(2) {
-        width: 15%;
-        top  : 35%;
-        right: 35%;
-    }
-
-    .about-content p {
-        font-size: 0.8rem;
-    }
-} */
-
-/* ==============================================  lg  ============================================ */
-/* @media(max-width: 992px) {
-    .nav-right {
-        top : 30%;
-        left: 110%;
-    }
-
-    .header-left {
-        padding-top: 4rem;
-    }
-
-    .header-left span {
-        font-size: 2rem;
-    }
-
-    label a {
-        font-size: 1.5rem;
-    }
-
-    .about-photo img:last-child {
-        width       : 70%;
-        margin-top  : -13rem;
-        padding-left: 12rem;
-    }
-
-    .about-photo img:first-child {
-        width: 20%;
-        top  : 43%;
-        right: 32%;
-    }
-
-    .about-photo img:nth-child(2) {
-        width: 11%;
-        top  : 26%;
-        right: 38%;
-    }
-
-    .about-content p {
-        font-size: 0.8rem;
-    }
-
-    .contacts-content {
-        padding: 1rem;
-    }
-
-    .level-item {
-        margin-bottom: 2rem;
-    }
-
-    .level-item:last-child {
-        margin-bottom: 0;
-    }
-} */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
