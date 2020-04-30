@@ -81,18 +81,6 @@ img {
     height         : 100vh;
 }
 
-.header-top {
-    /* display        : inline-flex; */
-    align-items    : center;
-    /* justify-content: space-between; */
-    /* width          : 100%; */
-}
-
-.header-top p {
-    font-family: 'Roboto-Regular';
-    font-weight: bold;
-}
-
 .header-content {
     padding-top   : 6rem;
     padding-bottom: 11rem;
