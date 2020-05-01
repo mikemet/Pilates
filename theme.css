@@ -31,7 +31,7 @@ body {
 }
 
 section {
-    padding-top: 2rem;
+    padding-top   : 2rem;
     /* outline    : 2px solid blue; */
 }
 
@@ -277,6 +277,8 @@ label a:hover {
 
 .about-content {
     align-items: start;
+    font-family: 'Roboto-Regular';
+    color: #8B4513;
 }
 
 .about-content a {
@@ -373,8 +375,19 @@ label a:hover {
 }
 
 /* =================================  lessons  ====================================     */
-/* .lessons-content {
-    margin-top: 9rem;
+.lessons-item .col-6 {
+    text-align: center;
+}
+
+.lessons-content.lessons-content {
+    margin-top  : 9rem;
+    text-align  : left;
+    padding-left: 6rem;
+}
+
+.lessons-content span,
+.lessons-content p {
+    color: #8B4513;
 }
 
 .lessons-content span {
@@ -383,7 +396,8 @@ label a:hover {
 }
 
 .lessons-content p {
-    margin-top: 1.5rem;
+    margin-top : 1.5rem;
+    font-family: 'Roboto-Regular';
 }
 
 .lessons-content p::first-letter {
@@ -396,7 +410,7 @@ label a:hover {
 
 .lessons-item img:last-child {
     margin-top: 0;
-} */
+}
 
 /* ===========================================  comments  ================================= */
 /* .carousel {
