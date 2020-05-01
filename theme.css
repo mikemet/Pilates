@@ -32,7 +32,7 @@ body {
 
 section {
     padding-top: 2rem;
-    outline : 2px solid blue;
+    /* outline    : 2px solid blue; */
 }
 
 img {
@@ -75,17 +75,17 @@ img {
 
 /*===================================  header  ==================================*/
 
-/* .header {
+.header {
     background     : url('images/header-bg.png') center center;
     background-size: cover;
     height         : 100vh;
-} */
+}
 
 /* .logo {
     margin-top: -2rem;
 } */
 
-/* .header-content {
+.header-content {
     padding-top   : 6rem;
     padding-bottom: 11rem;
     flex-flow     : column nowrap;
@@ -121,10 +121,10 @@ img {
 .header-content a:hover {
     color : dodgerblue;
     border: 2px solid dodgerblue;
-} */
+}
 
 /* ======================================  navbar  ======================================= */
-/* .main-menu {
+.main-menu {
     align-items: center;
     font-size  : 1.8rem;
     font-family: 'Roboto-LightItalic';
@@ -140,8 +140,9 @@ img {
 
 .navbar-nav {
     background-color: rgb(95, 158, 160, 0.4);
-    z-index: 100;
-} */
+    z-index         : 100;
+}
+
 /* ============================================================================================= */
 /* *,
 *:before,
@@ -270,7 +271,7 @@ label a:hover {
 
 /*======================================  about  =========================================*/
 
-/* .about-item {
+.about-item {
     margin-top: 2rem;
 }
 
@@ -286,7 +287,7 @@ label a:hover {
 
 .about-content a:hover {
     color: dodgerblue;
-} */
+}
 
 /* ===============================  shedule  =============================================== */
 .level {
