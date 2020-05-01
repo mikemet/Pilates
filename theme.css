@@ -416,7 +416,7 @@ label a:hover {
 }
 
 /* ===========================================  comments  ================================= */
-/* .carousel {
+.carousel {
     display: flex;
     padding: 0;
 }
@@ -430,6 +430,7 @@ label a:hover {
     position     : relative;
     text-align   : left;
     padding-top  : 6rem;
+    margin-top: 1rem;
     margin-bottom: 4rem;
     box-shadow   : 0 0 10px 3px rgba(221, 221, 221, 1);
 }
@@ -444,6 +445,11 @@ label a:hover {
 .comment-content {
     display       : flex;
     flex-direction: column;
+}
+
+.comment-content p {
+    font-family: 'Roboto-Regular';
+    color: #8B4513;
 }
 
 .comment-content span {
@@ -493,7 +499,7 @@ label a:hover {
 .carousel-indicators .active {
     width : 0.8rem;
     height: 0.8rem;
-} */
+}
 
 /* ======================================  contacts  ========================================= */
 /* .contacts-map {
