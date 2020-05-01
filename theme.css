@@ -116,11 +116,13 @@ img {
     border-bottom-right-radius: 2rem;
     color                     : #ffffff;
     text-decoration           : none;
+    transition: 0.2S;
 }
 
 .header-content a:hover {
-    color : dodgerblue;
-    border: 2px solid dodgerblue;
+    opacity: 0.5;
+    /* color : dodgerblue; */
+    /* border: 2px solid dodgerblue; */
 }
 
 /* ======================================  navbar  ======================================= */
@@ -363,11 +365,12 @@ label a:hover {
     font-weight               : bold;
     color                     : #ffffff;
     text-align                : center;
+    transition: 0.2S;
 }
 
 .level-item a:hover {
-    color : dodgerblue;
-    border: 2px solid dodgerblue;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 .level-item a::first-letter {
