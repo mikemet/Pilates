@@ -116,11 +116,11 @@ img {
     border-bottom-right-radius: 2rem;
     color                     : #ffffff;
     text-decoration           : none;
-    transition: 0.2S;
+    transition                : 0.2S;
 }
 
 .header-content a:hover {
-    opacity: 0.5;
+    opacity  : 0.5;
     /* color : dodgerblue; */
     /* border: 2px solid dodgerblue; */
 }
@@ -280,7 +280,7 @@ label a:hover {
 .about-content {
     align-items: start;
     font-family: 'Roboto-Regular';
-    color: #8B4513;
+    color      : #8B4513;
 }
 
 .about-content a {
@@ -365,11 +365,11 @@ label a:hover {
     font-weight               : bold;
     color                     : #ffffff;
     text-align                : center;
-    transition: 0.2S;
+    transition                : 0.2S;
 }
 
 .level-item a:hover {
-    opacity: 0.5;
+    opacity        : 0.5;
     text-decoration: none;
 }
 
@@ -430,7 +430,7 @@ label a:hover {
     position     : relative;
     text-align   : left;
     padding-top  : 6rem;
-    margin-top: 1rem;
+    margin-top   : 1rem;
     margin-bottom: 4rem;
     box-shadow   : 0 0 10px 3px rgba(221, 221, 221, 1);
 }
@@ -449,7 +449,7 @@ label a:hover {
 
 .comment-content p {
     font-family: 'Roboto-Regular';
-    color: #8B4513;
+    color      : #8B4513;
 }
 
 .comment-content span {
@@ -502,13 +502,14 @@ label a:hover {
 }
 
 /* ======================================  contacts  ========================================= */
-/* .contacts-map {
-    display          : flex;
-    background-image : url('images/contacts-map.jpg');
-    background-repeat: no-repeat;
-    padding-top      : 3rem;
-    margin-top       : 2rem;
-    box-shadow       : 0 0 5px;
+.contacts-map {
+    /* display          : flex; */
+    background     : url('images/contacts-map.jpg') center center;
+    background-size: cover;
+    height         : auto;
+    padding-top    : 3rem;
+    margin-top     : 2rem;
+    box-shadow     : 0 0 5px;
 }
 
 .contacts-content {
@@ -523,7 +524,7 @@ label a:hover {
 
 .contacts-content span {
     font-weight: bold;
-} */
+}
 
 /* ================================  footer  ================================ */
 /* footer {
