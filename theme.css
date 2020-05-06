@@ -120,7 +120,7 @@ img {
 }
 
 .header-content a:hover {
-    opacity  : 0.5;
+    opacity: 0.5;
 }
 
 /* ======================================  navbar  ======================================= */
@@ -352,6 +352,17 @@ label a:hover {
     margin-bottom: 1.5rem;
 }
 
+/* .signup {
+    background: none;
+    border       : 2px solid #ffffff;
+    border-radius: 1.2rem;
+    color: #ffffff;
+}
+
+.signup::first-letter {
+    text-transform: capitalize;
+} */
+
 .level-item a {
     border                    : 2px solid #ffffff;
     border-top-left-radius    : 1.2rem;
@@ -363,12 +374,12 @@ label a:hover {
     font-weight               : bold;
     color                     : #ffffff;
     text-align                : center;
-    transition                : 0.2S;
 }
 
 .level-item a:hover {
-    opacity        : 0.5;
+    color: dodgerblue;
     text-decoration: none;
+    border: 2px solid dodgerblue;
 }
 
 .level-item a::first-letter {
@@ -502,13 +513,13 @@ label a:hover {
 /* ======================================  contacts  ========================================= */
 .contacts-map {
     /* display          : flex; */
-    background     : url('images/contacts-map.jpg') center center;
-    background-size: cover;
-    height         : auto;
-    padding-top    : 3rem;
-    margin-top     : 2rem;
+    background        : url('images/contacts-map.jpg') center center;
+    background-size   : cover;
+    height            : auto;
+    padding-top       : 3rem;
+    margin-top        : 2rem;
     /* box-shadow     : 0 0 5px; */
-    border: 2px solid #9cb269;
+    border            : 2px solid #9cb269;
 }
 
 .contacts-content {
@@ -528,7 +539,7 @@ label a:hover {
 /* ================================  footer  ================================ */
 footer {
     background-color: #91aa59;
-    margin-top: 3rem;
+    margin-top      : 3rem;
 }
 
 .footer-content {

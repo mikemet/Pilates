@@ -12,3 +12,10 @@
 
 ga('create', 'UA-46156385-1', 'cssscript.com');
 ga('send', 'pageview');
+
+// =============================  modal window  ================================
+// $('.registrationButton').click(function () {
+//     $('.registrationButton').modal({
+//         backdrop: 'static'
+//     });
+// });
