@@ -385,6 +385,10 @@ label a:hover {
 .level-item a::first-letter {
     text-transform: capitalize;
 }
+/* ===================================  modal window  ============================= */
+.modal-footer button {
+    background: #9cb269;
+}
 
 /* =================================  lessons  ====================================     */
 .lessons-item .col-6 {
