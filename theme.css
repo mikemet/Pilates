@@ -391,17 +391,28 @@ label a:hover {
     font-family: 'Roboto-Regular';
 }
 
+.modal-content {
+    padding: 4rem 2rem;
+}
+
 .modal-header {
     border: none;
 }
 
 .modal-title {
-    font-size  : 2.5rem;
+    font-size  : 2rem;
     font-weight: bold;
+}
+
+.modal-body {
+    margin-bottom: 2rem;
 }
 
 .modal-body p {
     font-size: 1rem;
+}
+.modal form {
+    margin-top: 3rem;
 }
 
 .modal-body input {
@@ -417,6 +428,22 @@ label a:hover {
     background: #9cb269;
 }
 
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #9cb269;
+}
+
+.saveButton {
+    border: 2px solid #9cb269;
+    border-radius: 3rem;
+    color: #ffffff;
+}
+
+.saveButton:hover {
+    background: none;
+    color: #9cb269;
+}
 /* =================================  lessons  ====================================     */
 .lessons-item .col-6 {
     text-align: center;
