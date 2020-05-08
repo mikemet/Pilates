@@ -79,6 +79,7 @@ img {
     background     : url('images/header-bg.png') center center;
     background-size: cover;
     height         : auto;
+    /* justify-items: baseline; */
 }
 
 .logo {
@@ -351,17 +352,6 @@ label a:hover {
 .cost {
     margin-bottom: 1.5rem;
 }
-
-/* .signup {
-    background: none;
-    border       : 2px solid #ffffff;
-    border-radius: 1.2rem;
-    color: #ffffff;
-}
-
-.signup::first-letter {
-    text-transform: capitalize;
-} */
 
 .level-item a {
     border                    : 2px solid #ffffff;
