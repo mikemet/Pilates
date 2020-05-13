@@ -306,7 +306,9 @@ label a:hover {
     padding-right   : 3rem;
     padding-bottom  : 4rem;
     padding-top     : 7rem;
-    margin          : 0 0.5rem;
+    margin-left     : 0.5rem;
+    margin-right    : 0.5rem;
+    margin-bottom   : 1rem;
     z-index         : 100;
     color           : #ffffff;
     line-height     : 0.8rem;
@@ -632,12 +634,20 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .nav-right {
-        right: -1%;
+        right: -2%;
     }
 
     .header-content span {
         font-size: 1.5rem;
-        /* line-height: 0.8rem; */
+    }
+
+    .level-item {
+        padding-left : 1rem;
+        padding-right: 1rem;
+    }
+
+    .level-item a {
+        padding: 0.6rem 1.2rem;
     }
 }
 
@@ -646,13 +656,13 @@ No media query for `xs` since this is the default in Bootstrap */
     html {
         font-size: 16px;
     }
-    
+
     .section-title span {
         font-size: 2rem;
     }
 
     .header-content span {
-        font-size: 3rem;
+        font-size     : 3rem;
         /* line-height: 1.2rem; */
     }
 }
@@ -662,11 +672,21 @@ No media query for `xs` since this is the default in Bootstrap */
     .slider-circles {
         left: 34rem;
     }
+
+    .level-item {
+        padding-right: 2rem;
+        padding-left : 2rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .slider-circles {
         left: 44rem;
+    }
+
+    .level-item {
+        padding-right: 3rem;
+        padding-left : 3rem;
     }
 }
