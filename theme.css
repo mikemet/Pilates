@@ -76,9 +76,9 @@ img {
 /*===================================  header  ==================================*/
 
 .header {
-    background     : url('images/header-bg.png') center center;
-    background-size: cover;
-    height         : auto;
+    background      : url('images/header-bg.png') center center;
+    background-size : cover;
+    height          : auto;
     /* justify-items: baseline; */
 }
 
@@ -401,6 +401,7 @@ label a:hover {
 .modal-body p {
     font-size: 1rem;
 }
+
 .modal form {
     margin-top: 3rem;
 }
@@ -419,21 +420,22 @@ label a:hover {
 }
 
 .form-check-input {
-    width: 1.2rem;
+    width : 1.2rem;
     height: 1.2rem;
-    color: #9cb269;
+    color : #9cb269;
 }
 
 .saveButton {
-    border: 2px solid #9cb269;
+    border       : 2px solid #9cb269;
     border-radius: 3rem;
-    color: #ffffff;
+    color        : #ffffff;
 }
 
 .saveButton:hover {
     background: none;
-    color: #9cb269;
+    color     : #9cb269;
 }
+
 /* =================================  lessons  ====================================     */
 .lessons-item .col-6 {
     text-align: center;
@@ -539,7 +541,7 @@ label a:hover {
 .slider-circles {
     position: absolute;
     left    : 44rem;
-    top     : 3rem;
+    top     : 2rem;
 }
 
 .slide li {
@@ -620,13 +622,51 @@ footer {
 No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    .section-title span {
+        font-size: 1.5rem;
+    }
+
+    .nav-right {
+        right: -1%;
+    }
+
+    .header-content span {
+        font-size: 1.5rem;
+        /* line-height: 0.8rem; */
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    
+    .section-title span {
+        font-size: 2rem;
+    }
+
+    .header-content span {
+        font-size: 3rem;
+        /* line-height: 1.2rem; */
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .slider-circles {
+        left: 34rem;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .slider-circles {
+        left: 44rem;
+    }
+}
