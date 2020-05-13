@@ -625,46 +625,12 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    html {
-        font-size: 12px;
-    }
-
-    .section-title span {
-        font-size: 1.5rem;
-    }
-
-    .nav-right {
-        right: -2%;
-    }
-
-    .header-content span {
-        font-size: 1.5rem;
-    }
-
-    .level-item {
-        padding-left : 1rem;
-        padding-right: 1rem;
-    }
-
-    .level-item a {
-        padding: 0.6rem 1.2rem;
-    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-
-    .section-title span {
-        font-size: 2rem;
-    }
-
-    .header-content span {
-        font-size     : 3rem;
-        /* line-height: 1.2rem; */
-    }
+    
 }
 
 /* Large devices (desktops, 992px and up) */
