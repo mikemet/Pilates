@@ -28,7 +28,7 @@ body {
 }
 
 section {
-    padding-top   : 4rem;
+    /* padding-top   : 4rem; */
     /* outline    : 2px solid blue; */
 }
 
@@ -54,7 +54,6 @@ img {
 }
 
 .section-title span {
-    font-family: Roboto-Regular;
     font-size  : 2rem;
     font-weight: bold;
 }
@@ -78,21 +77,22 @@ img {
 }
 
 .header-top {
-    padding-top: 3.125rem;
+    padding-top: 2.125rem;
 }
 
 .header-top p {
     font-size  : 1rem;
-    font-weight: 600;
 }
 
 .header-content {
     color: #ffffff;
+    /* padding-top: 6rem; */
 }
 
 .header-content span {
-    font-size     : 3.625rem;
+    /* font-size     : 3.625rem; */
     text-transform: uppercase;
+    /* letter-spacing: 0.4rem; */
 }
 
 .header-content p {
@@ -650,7 +650,7 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .header-photo {
-        margin-top: -2rem;
+        margin-top: -1.2rem;
     }
 }
 
@@ -662,13 +662,26 @@ No media query for `xs` since this is the default in Bootstrap */
         height         : auto;
     }
 
+    .header-content p {
+        font-size: 1rem;
+    
+    }
+
     .main-menu {
         text-align: center;
+    }
+
+    .header-photo {
+        margin-top: 0;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .header-content span {
+        font-size: 3.625rem;
+    }
+
     .slider-circles {
         left: 34rem;
     }
