@@ -27,11 +27,6 @@ body {
     line-height: normal;
 }
 
-section {
-    /* padding-top   : 4rem; */
-    /* outline    : 2px solid blue; */
-}
-
 img {
     max-width: 100%;
     height   : auto;
@@ -81,19 +76,12 @@ img {
     padding-top: 2.125rem;
 }
 
-.header-top p {
-    font-size  : 1rem;
-}
-
 .header-content {
     color: #ffffff;
-    /* padding-top: 6rem; */
 }
 
 .header-content span {
-    /* font-size     : 3.625rem; */
     text-transform: uppercase;
-    /* letter-spacing: 0.4rem; */
 }
 
 .header-content p {
@@ -635,12 +623,16 @@ No media query for `xs` since this is the default in Bootstrap */
         text-align: right;
     }
 
+    .header-content {
+        padding-bottom: 2rem;
+    }
+
     .header-content span {
-        font-size: 1.2rem;
+        font-size: 1.875rem;
     }
 
     .header-content a {
-        font-size: 0.6rem;
+        font-size: 0.688rem;
         padding: 0.2rem;
     }
 
@@ -651,6 +643,23 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .header-content {
+        padding-bottom: 0;
+    }
+
+    .header-content span {
+        font-size: 3rem;
+    }
+
+    .header-content p {
+        font-size: 1.125rem;
+    }
+
+    .header-content a {
+        font-size: 0.688rem;
+        padding: 0.5rem 1rem;
+    }
+
     .header-photo {
         margin-top: -1.2rem;
     }
@@ -665,8 +674,12 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .header-content p {
-        font-size: 1rem;
-    
+        margin-top: 2rem;
+    }
+
+    .header-content a {
+        padding: 1rem 2rem;
+        font-size: 0.875rem;
     }
 
     .main-menu {
@@ -680,8 +693,8 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .header-content span {
-        font-size: 3.625rem;
+    .header-content p {
+        margin-top: 0;
     }
 
     .slider-circles {
@@ -696,6 +709,14 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .header-content span {
+        font-size: 3.625rem;
+    }
+
+    .header-content p {
+        font-size: 1.125rem;
+    }
+
     .slider-circles {
         left: 44rem;
     }
