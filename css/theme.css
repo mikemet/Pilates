@@ -639,6 +639,10 @@ No media query for `xs` since this is the default in Bootstrap */
     .header-photo {
         margin-top: 0;
     }
+
+    .dropdown-item {
+        font-size: 1.125rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -688,6 +692,10 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-photo {
         margin-top: 0;
+    }
+
+    .dropdown-item {
+        font-size: 2.25rem;
     }
 }
 
