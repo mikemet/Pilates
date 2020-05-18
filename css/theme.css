@@ -20,14 +20,11 @@
     src        : url('fonts/Roboto-Regular.ttf') format('truetype');
 }
 
-html {
-    font-size  : 16px;
-    line-height: 0.7rem;
-}
-
 body {
-    font-family: 'Roboto-Light';
-    min-width  : 320px;
+    min-width: 320px;
+    font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
+    font-size  : 14px;
+    line-height: normal;
 }
 
 section {
@@ -68,43 +65,39 @@ img {
 
 .nav-right {
     position : absolute;
-    top      : 35%;
-    right    : -2%;
+    top      : 40%;
+    right    : 1%;
     /* height: 270px; */
 }
 
 /*===================================  header  ==================================*/
-
 .header {
-    background      : url('images/header-bg.png') center center;
-    background-size : cover;
-    height          : auto;
-    /* justify-items: baseline; */
+    background     : url('/images/header-bg.png') center center;
+    background-size: cover;
+    height         : auto;
 }
 
-.logo {
-    margin-top: -2rem;
+.header-top {
+    padding-top: 3.125rem;
+}
+
+.header-top p {
+    font-size  : 1rem;
+    font-weight: 600;
 }
 
 .header-content {
-    padding-top   : 6rem;
-    padding-bottom: 11rem;
-    flex-flow     : column nowrap;
-    color         : #ffffff;
+    color: #ffffff;
 }
 
 .header-content span {
-    font-size     : 3rem;
-    line-height   : 1.2em;
+    font-size     : 3.625rem;
     text-transform: uppercase;
 }
 
 .header-content p {
-    font-family  : 'Roboto-Light';
-    font-size    : 1.125rem;
-    font-weight  : normal;
-    margin-top   : 1rem;
-    margin-bottom: 4rem;
+    font-size: 1.125rem;
+
 }
 
 .header-content a {
@@ -118,10 +111,17 @@ img {
     color                     : #ffffff;
     text-decoration           : none;
     transition                : 0.2S;
+    font-size                 : 0.875rem;
 }
 
 .header-content a:hover {
     opacity: 0.5;
+}
+
+.dropdown-item {
+    font-size     : 3rem;
+    font-style    : italic;
+    /* font-weight: bold; */
 }
 
 /* ======================================  navbar  ======================================= */
@@ -623,14 +623,48 @@ footer {
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
+@media (min-width: 320px) {
+    .header {
+        background     : url('/images/header-bg-mobi.png') center center;
+        background-size: cover;
+        height         : auto;
+    }
+
+    .main-menu {
+        text-align: right;
+    }
+
+    .header-content span {
+        font-size: 1.875rem;
+    }
+
+    .header-content a {
+        font-size: 0.688rem;
+    }
+
+    .header-photo {
+        margin-top: 0;
+    }
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    
+    .header-photo {
+        margin-top: -2rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    
+    .header {
+        background     : url('/images/header-bg.png') center center;
+        background-size: cover;
+        height         : auto;
+    }
+
+    .main-menu {
+        text-align: center;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
