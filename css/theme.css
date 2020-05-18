@@ -44,6 +44,7 @@ img {
 .section-title {
     display    : inline-flex;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .section-title hr {
@@ -635,11 +636,12 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .header-content span {
-        font-size: 1.875rem;
+        font-size: 1.2rem;
     }
 
     .header-content a {
-        font-size: 0.688rem;
+        font-size: 0.6rem;
+        padding: 0.2rem;
     }
 
     .header-photo {
