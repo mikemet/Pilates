@@ -107,10 +107,18 @@ img {
     opacity: 0.5;
 }
 
+.dropdown-menu {
+    background: rgba(116, 226, 217, 0.4);
+}
+
 .dropdown-item {
+    color: #ffffff;
     font-size     : 3rem;
     font-style    : italic;
-    /* font-weight: bold; */
+}
+
+.dropdown-item:hover {
+    color: #9cb269;
 }
 
 /* ======================================  navbar  ======================================= */
@@ -640,6 +648,10 @@ No media query for `xs` since this is the default in Bootstrap */
         margin-top: 0;
     }
 
+    .dropdown-menu {
+        margin-left: -100%;
+    }
+
     .dropdown-item {
         font-size: 1.125rem;
     }
@@ -692,6 +704,10 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-photo {
         margin-top: 0;
+    }
+
+    .dropdown-menu {
+        margin-left: -60%;
     }
 
     .dropdown-item {
