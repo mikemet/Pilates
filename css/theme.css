@@ -127,7 +127,7 @@ img {
 
 .about-content {
     /* align-items: start; */
-    color      : #8B4513;
+    color: #8B4513;
 }
 
 .about-content a {
@@ -142,7 +142,7 @@ img {
 
 /* ===============================  shedule  =============================================== */
 .level {
-    margin-top: 4.375rem;
+    margin-top: 4rem;
 }
 
 .level-item {
@@ -150,16 +150,11 @@ img {
     flex-direction  : column;
     position        : relative;
     background-color: #9cb269;
-    padding-left    : 3rem;
-    padding-right   : 3rem;
-    padding-bottom  : 4rem;
-    padding-top     : 7rem;
-    margin-left     : 0.5rem;
-    margin-right    : 0.5rem;
-    margin-bottom   : 1rem;
-    z-index         : 100;
-    color           : #ffffff;
-    line-height     : 0.8rem;
+
+    margin-bottom: 1rem;
+    z-index      : 100;
+    color        : #ffffff;
+    line-height  : 0.8rem;
 }
 
 .level-item:first-child {
@@ -171,14 +166,13 @@ img {
 }
 
 .level-number {
-    position   : absolute;
-    top        : 23%;
-    left       : 25%;
-    z-index    : -100;
-    font-family: Roboto-Regular;
-    font-size  : 8.25rem;
-    color      : #ffffff;
-    opacity    : .1;
+    position : absolute;
+    top      : 23%;
+    left     : 25%;
+    z-index  : -100;
+    font-size: 8.25rem;
+    color    : #ffffff;
+    opacity  : .1;
 }
 
 .level-item-title {
@@ -187,7 +181,6 @@ img {
 }
 
 .level-item-title span {
-    font-family   : Roboto-Regular;
     font-size     : 1.2rem;
     text-transform: uppercase;
     font-weight   : bold;
@@ -195,7 +188,6 @@ img {
 
 .week-day,
 .cost {
-    font-family: Roboto-Regular;
     font-weight: bold;
 }
 
@@ -209,7 +201,7 @@ img {
     border-top-right-radius   : 1.2rem;
     border-bottom-left-radius : 1.2rem;
     border-bottom-right-radius: 1.2rem;
-    padding                   : 0.8rem 2.5rem;
+    padding                   : 0.8rem;
     margin-top                : 2rem;
     font-weight               : bold;
     color                     : #ffffff;
@@ -533,6 +525,11 @@ No media query for `xs` since this is the default in Bootstrap */
     .about-item {
         flex-wrap: wrap;
     }
+
+    .level {
+        display  : flex;
+        flex-wrap: wrap;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -575,9 +572,13 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .about-item {
-        display: flex;
-        flex-wrap: nowrap;
+        display        : flex;
+        flex-wrap      : nowrap;
         justify-content: space-around;
+    }
+
+    .level {
+        justify-content: center;
     }
 }
 
@@ -620,15 +621,6 @@ No media query for `xs` since this is the default in Bootstrap */
     .header-content p {
         margin-top: 0;
     }
-
-    .slider-circles {
-        left: 34rem;
-    }
-
-    .level-item {
-        padding-right: 2rem;
-        padding-left : 2rem;
-    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -639,14 +631,5 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-content p {
         font-size: 1.125rem;
-    }
-
-    .slider-circles {
-        left: 44rem;
-    }
-
-    .level-item {
-        padding-right: 3rem;
-        padding-left : 3rem;
     }
 }
