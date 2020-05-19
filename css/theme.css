@@ -21,7 +21,7 @@
 }
 
 body {
-    min-width: 320px;
+    min-width  : 320px;
     font-family: 'Roboto-Light', Arial, Helvetica, sans-serif;
     font-size  : 14px;
     line-height: normal;
@@ -39,18 +39,15 @@ img {
 .section-title {
     display    : inline-flex;
     align-items: center;
-    margin-top: 4rem;
 }
 
 .section-title hr {
-    width           : 1.5rem;
     margin-right    : 1rem;
     border          : 1px solid gray;
     background-color: gray;
 }
 
 .section-title span {
-    font-size  : 2rem;
     font-weight: bold;
 }
 
@@ -112,9 +109,9 @@ img {
 }
 
 .dropdown-item {
-    color: #ffffff;
-    font-size     : 3rem;
-    font-style    : italic;
+    color     : #ffffff;
+    font-size : 3rem;
+    font-style: italic;
 }
 
 .dropdown-item:hover {
@@ -621,6 +618,18 @@ footer {
 No media query for `xs` since this is the default in Bootstrap */
 
 @media (min-width: 320px) {
+    .section-title {
+        margin-top: 2rem;
+    }
+
+    .section-title hr {
+        width: 1rem;
+    }
+
+    .section-title span {
+        font-size: 1.3rem;
+    }
+
     .header {
         background     : url('/images/header-bg-mobi.png') center center;
         background-size: cover;
@@ -641,7 +650,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-content a {
         font-size: 0.688rem;
-        padding: 0.2rem;
+        padding  : 0.2rem;
     }
 
     .header-photo {
@@ -659,6 +668,18 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .section-title {
+        margin-top: 4rem;
+    }
+
+    .section-title hr {
+        width: 1.5rem;
+    }
+
+    .section-title span {
+        font-size: 2rem;
+    }
+
     .header-content {
         padding-bottom: 0;
     }
@@ -673,7 +694,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-content a {
         font-size: 0.688rem;
-        padding: 0.5rem 1rem;
+        padding  : 0.5rem 1rem;
     }
 
     .header-photo {
@@ -694,7 +715,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .header-content a {
-        padding: 1rem 2rem;
+        padding  : 1rem 2rem;
         font-size: 0.875rem;
     }
 
