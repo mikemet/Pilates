@@ -57,8 +57,8 @@ img {
 
 .nav-right {
     position : absolute;
-    top      : 40%;
-    right    : 1%;
+    top      : 45%;
+    right    : -1%;
     /* height: 270px; */
 }
 
@@ -118,151 +118,6 @@ img {
     color: #9cb269;
 }
 
-/* ======================================  navbar  ======================================= */
-.main-menu {
-    align-items: center;
-    font-size  : 1.8rem;
-    font-family: 'Roboto-LightItalic';
-}
-
-.nav-link {
-    color: #ffffff;
-}
-
-.nav-link:hover {
-    color: dodgerblue;
-}
-
-.navbar-nav {
-    background-color: rgb(95, 158, 160, 0.4);
-    z-index         : 100;
-}
-
-/* ============================================================================================= */
-/* *,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
-label .menu {
-    position          : absolute;
-    right             : 44%;
-    top               : -7rem;
-    z-index           : 200;
-    width             : 12rem;
-    height            : 12rem;
-    border-radius     : 50% 50% 50% 50%;
-    -webkit-transition: .5s ease-in-out;
-    transition        : .5s ease-in-out;
-    box-shadow        : 0 0 0 0 #91aa59;
-    cursor            : pointer;
-}
-
-label .hamburger {
-    position                : absolute;
-    top                     : 135px;
-    left                    : 50%;
-    width                   : 1.8rem;
-    height                  : 2px;
-    background              : #fff;
-    display                 : block;
-    -webkit-transform-origin: center;
-    transform-origin        : center;
-    -webkit-transition      : .5s ease-in-out;
-    transition              : .5s ease-in-out;
-}
-
-label .hamburger:after,
-label .hamburger:before {
-    -webkit-transition: .5s ease-in-out;
-    transition        : .5s ease-in-out;
-    content           : "";
-    position          : absolute;
-    display           : block;
-    width             : 100%;
-    height            : 100%;
-    background        : #fff;
-}
-
-label .hamburger:before {
-    top: -10px;
-}
-
-label .hamburger:after {
-    bottom: -10px;
-}
-
-label input {
-    display: none;
-}
-
-label input:checked+.menu {
-    box-shadow   : 0 -30rem 0 100vw #91aa59;
-    border-radius: 0;
-}
-
-label input:checked+.menu {
-    left            : 90%;
-    background-color: #91aa59;
-    opacity         : .7;
-}
-
-label input:checked+.menu .hamburger {
-    -webkit-transform: rotate(45deg);
-    transform        : rotate(45deg);
-}
-
-label input:checked+.menu .hamburger:after {
-    -webkit-transform: rotate(90deg);
-    transform        : rotate(90deg);
-    bottom           : 0;
-}
-
-label input:checked+.menu .hamburger:before {
-    -webkit-transform: rotate(90deg);
-    transform        : rotate(90deg);
-    top              : 0;
-}
-
-label input:checked+.menu+ul {
-    padding         : 1rem 4rem;
-    opacity         : .8;
-    background-color: #2E8B57;
-    border          : 0;
-    border-radius   : 1rem;
-}
-
-label ul {
-    z-index           : 300;
-    position          : absolute;
-    top               : 50%;
-    left              : 40%;
-    -webkit-transform : translate(-50%, -50%);
-    transform         : translate(-50%, -50%);
-    opacity           : 0;
-    -webkit-transition: .25s 0s ease-in-out;
-    transition        : .25s 0s ease-in-out;
-}
-
-label ul li {
-    color          : #fff;
-    list-style-type: none;
-}
-
-label a {
-    margin-bottom: 0.5em;
-    display      : block;
-    color        : #fff;
-    font-family  : 'Roboto-Regular';
-    font-size    : 2rem;
-    font-weight  : bold;
-}
-
-label a:hover {
-    color          : rgb(83, 75, 75);
-    text-decoration: none;
-} */
 
 /*======================================  about  =========================================*/
 
@@ -271,8 +126,7 @@ label a:hover {
 }
 
 .about-content {
-    align-items: start;
-    font-family: 'Roboto-Regular';
+    /* align-items: start; */
     color      : #8B4513;
 }
 
@@ -612,12 +466,23 @@ footer {
     margin-right: 0;
 }
 
+
+
+
+
+
+
+
 /* ================================  media  ================================== */
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
 @media (min-width: 320px) {
+    .nav-right {
+        display: none;
+    }
+
     .section-title {
         margin-top: 2rem;
     }
@@ -664,10 +529,18 @@ No media query for `xs` since this is the default in Bootstrap */
     .dropdown-item {
         font-size: 1.125rem;
     }
+
+    .about-item {
+        flex-wrap: wrap;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .nav-right {
+        display: unset;
+    }
+
     .section-title {
         margin-top: 4rem;
     }
@@ -699,6 +572,12 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-photo {
         margin-top: -1.2rem;
+    }
+
+    .about-item {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
     }
 }
 
