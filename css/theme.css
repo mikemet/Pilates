@@ -279,14 +279,16 @@ img {
 }
 
 /* =================================  lessons  ====================================     */
-.lessons-item .col-6 {
-    text-align: center;
+.lessons-item {
+    align-items: center;
 }
 
-.lessons-content.lessons-content {
-    margin-top  : 9rem;
+.lessons-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.lessons-content {
     text-align  : left;
-    padding-left: 9rem;
 }
 
 .lessons-content span,
@@ -295,25 +297,16 @@ img {
 }
 
 .lessons-content span {
-    font-size  : 1.3rem;
+    /* font-size  : 1.3rem; */
     font-weight: bold;
 }
 
 .lessons-content p {
     margin-top : 1.5rem;
-    font-family: 'Roboto-Regular';
 }
 
 .lessons-content p::first-letter {
     text-transform: capitalize;
-}
-
-.lessons-item img {
-    margin-top: -2rem;
-}
-
-.lessons-item img:last-child {
-    margin-top: 0;
 }
 
 /* ===========================================  comments  ================================= */
@@ -530,6 +523,10 @@ No media query for `xs` since this is the default in Bootstrap */
         display  : flex;
         flex-wrap: wrap;
     }
+
+    .lessons-item {
+        flex-wrap: wrap;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -614,6 +611,14 @@ No media query for `xs` since this is the default in Bootstrap */
     .dropdown-item {
         font-size: 2.25rem;
     }
+
+    .lessons-content span {
+        font-size: 1.125rem;
+    }
+
+    .lessons-content p {
+        font-size: 1rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -631,5 +636,13 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .header-content p {
         font-size: 1.125rem;
+    }
+
+    .lessons-content span {
+        font-size: 1.75rem;
+    }
+
+    .lessons-content p {
+        font-size: 1rem;
     }
 }
