@@ -342,12 +342,11 @@ img {
 }
 
 .comment-content p {
-    font-family: 'Roboto-Regular';
     color      : #8B4513;
 }
 
 .comment-content span {
-    font-size     : 1.4rem;
+    font-size     : 1.75rem;
     font-weight   : bold;
     text-transform: capitalize;
 }
@@ -374,8 +373,8 @@ img {
 
 .slider-circles {
     position: absolute;
-    left    : 44rem;
-    top     : 2rem;
+    left    : 75%;
+    top     : 5%;
 }
 
 .slide li {
