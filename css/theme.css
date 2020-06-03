@@ -319,7 +319,7 @@ img {
     margin-left : 12%;
     margin-right: 12%;
     padding     : 1rem;
-    box-shadow  : 0 0 5px;
+    box-shadow  : 0 5px 25px;
 }
 
 .carousel-item {
@@ -349,6 +349,7 @@ img {
     font-size     : 1.75rem;
     font-weight   : bold;
     text-transform: capitalize;
+    margin-bottom: 1rem;
 }
 
 .comment-item-social {
