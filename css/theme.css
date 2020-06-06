@@ -324,7 +324,7 @@ img {
 
 .carousel-item {
     position     : relative;
-    text-align   : left;
+    /* text-align   : left; */
     padding-top  : 6rem;
     margin-bottom: 3rem;
 }
@@ -333,7 +333,7 @@ img {
     border       : 0;
     border-radius: 50%;
     margin-right : 2rem;
-    float        : left;
+    /* float        : left; */
 }
 
 .comment-content {
@@ -374,7 +374,7 @@ img {
 
 .slider-circles {
     position: absolute;
-    left    : 75%;
+    left    : 78%;
     top     : 5%;
 }
 
@@ -525,6 +525,11 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .lessons-item {
         flex-wrap: wrap;
+    }
+
+    .comment-item, .comments-item-social {
+        display: flex;
+        justify-content: center;
     }
 }
 
