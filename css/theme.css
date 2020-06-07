@@ -322,7 +322,7 @@ img {
 }
 
 .carousel-item {
-    position     : relative;
+    position: relative;
 }
 
 .comment-content {
@@ -383,20 +383,14 @@ img {
     height: 0.8rem;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    margin-top: 20%;
-}
-
 /* ======================================  contacts  ========================================= */
 .contacts-map {
-    /* display          : flex; */
-    background        : url('/images/contacts-map.jpg') center center;
-    background-size   : cover;
-    height            : auto;
-    padding-top       : 3rem;
-    margin-top        : 2rem;
-    border            : 2px solid #9cb269;
+    background     : url('/images/contacts-map.jpg') center center;
+    background-size: cover;
+    height         : auto;
+    padding-top    : 3rem;
+    margin-top     : 2rem;
+    border         : 2px solid #9cb269;
 }
 
 .contacts-content {
@@ -634,6 +628,11 @@ No media query for `xs` since this is the default in Bootstrap */
     .comment-item-social {
         justify-content: start;
     }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-top: 16%;
+    }
 }
 
 
@@ -643,6 +642,10 @@ No media query for `xs` since this is the default in Bootstrap */
         margin-top: 0;
     }
 
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-top: 12%;
+    }
 
 }
 
