@@ -318,19 +318,11 @@ img {
 .carousel-inner {
     margin-left : 12%;
     margin-right: 12%;
-    padding     : 1rem;
     box-shadow  : 0 5px 25px lightgray;
 }
 
 .carousel-item {
     position     : relative;
-    padding-top  : 3rem;
-    margin-bottom: 1rem;
-}
-
-.slider-photo {
-    border       : 0;
-    border-radius: 50%;
 }
 
 .comment-content {
@@ -371,7 +363,7 @@ img {
 
 .slider-circles {
     position: absolute;
-    left    : 78%;
+    left    : 80%;
     top     : 5%;
 }
 
