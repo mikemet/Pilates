@@ -391,12 +391,11 @@ img {
 /* ======================================  contacts  ========================================= */
 .contacts-map {
     /* display          : flex; */
-    background        : url('images/contacts-map.jpg') center center;
+    background        : url('/images/contacts-map.jpg') center center;
     background-size   : cover;
     height            : auto;
     padding-top       : 3rem;
     margin-top        : 2rem;
-    /* box-shadow     : 0 0 5px; */
     border            : 2px solid #9cb269;
 }
 
