@@ -288,7 +288,7 @@ img {
 }
 
 .lessons-content {
-    text-align  : left;
+    text-align: left;
 }
 
 .lessons-content span,
@@ -301,7 +301,7 @@ img {
 }
 
 .lessons-content p {
-    margin-top : 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .lessons-content p::first-letter {
@@ -319,21 +319,18 @@ img {
     margin-left : 12%;
     margin-right: 12%;
     padding     : 1rem;
-    box-shadow  : 0 5px 25px;
+    box-shadow  : 0 5px 25px lightgray;
 }
 
 .carousel-item {
     position     : relative;
-    /* text-align   : left; */
-    padding-top  : 6rem;
-    margin-bottom: 3rem;
+    padding-top  : 3rem;
+    margin-bottom: 1rem;
 }
 
 .slider-photo {
     border       : 0;
     border-radius: 50%;
-    margin-right : 2rem;
-    /* float        : left; */
 }
 
 .comment-content {
@@ -342,14 +339,14 @@ img {
 }
 
 .comment-content p {
-    color      : #8B4513;
+    color: #8B4513;
 }
 
 .comment-content span {
     font-size     : 1.75rem;
     font-weight   : bold;
     text-transform: capitalize;
-    margin-bottom: 1rem;
+    margin-bottom : 1rem;
 }
 
 .comment-item-social {
@@ -392,6 +389,11 @@ img {
 .carousel-indicators .active {
     width : 0.8rem;
     height: 0.8rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin-top: 20%;
 }
 
 /* ======================================  contacts  ========================================= */
@@ -527,9 +529,18 @@ No media query for `xs` since this is the default in Bootstrap */
         flex-wrap: wrap;
     }
 
-    .comment-item, .comments-item-social {
-        display: flex;
+    .comment-item {
+        display       : flex;
+        flex-direction: column;
+        text-align    : center;
+    }
+
+    .comment-item-social {
         justify-content: center;
+    }
+
+    .slider-photo {
+        margin-bottom: 2rem;
     }
 }
 
@@ -623,13 +634,25 @@ No media query for `xs` since this is the default in Bootstrap */
     .lessons-content p {
         font-size: 1rem;
     }
+
+    .comment-item {
+        flex-direction: row;
+        text-align    : start;
+    }
+
+    .comment-item-social {
+        justify-content: start;
+    }
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .header-content p {
         margin-top: 0;
     }
+
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
