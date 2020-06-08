@@ -56,10 +56,9 @@ img {
 }
 
 .nav-right {
-    position : absolute;
-    top      : 45%;
-    right    : -1%;
-    /* height: 270px; */
+    position: absolute;
+    top     : 45%;
+    right   : -1%;
 }
 
 /*===================================  header  ==================================*/
@@ -118,7 +117,6 @@ img {
     color: #9cb269;
 }
 
-
 /*======================================  about  =========================================*/
 
 .about-item {
@@ -126,7 +124,6 @@ img {
 }
 
 .about-content {
-    /* align-items: start; */
     color: #8B4513;
 }
 
@@ -439,11 +436,6 @@ footer {
 
 
 
-
-
-
-
-
 /* ================================  media  ================================== */
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -635,7 +627,6 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 }
 
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .header-content p {
@@ -646,7 +637,6 @@ No media query for `xs` since this is the default in Bootstrap */
     .carousel-control-next {
         margin-top: 12%;
     }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
