@@ -1,6 +1,6 @@
 .header {
-    background-color: bisque;
-    /* background-image: url('../../images/header-photo.png') center center; */
+    /*background-color: #9cb269;*/
+    /* background-image: url('/images/header-bg.png') center center; */
     /* background-size: cover; */
     /* height: auto; */
 }
@@ -57,7 +57,8 @@
 /* ===========================  media  =========================== */
 @media (min-width: 320px) {
     .header {
-        background: url('/images/header-bg-mobi.png') center center;
+        /*background-image: url('/images/header-bg-mobi.jpg') center center;*/
+        background: url('/images/header-bg-mobi.jpg') center center;
         background-size: cover;
         height: auto;
     }
@@ -123,7 +124,8 @@
 /* ================================================ */
 @media (min-width: 768px) {
     .header {
-        background: url('/images/header-bg.png') center center;
+        /*background-image: url('/images/header-bg.jpg') center center;*/
+        background: url('/images/header-bg.jpg') center center;
         background-size: cover;
         height: auto;
     }
