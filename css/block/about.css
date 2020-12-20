@@ -4,6 +4,9 @@
 
 .about-content {
     color: #8B4513;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .about-content a {
